@@ -1,14 +1,20 @@
 import withSerwistInit from "@serwist/next";
 import { execSync } from "child_process";
+
 const revision = execSync("git rev-parse HEAD", { encoding: "utf8" })
   .trim()
   .slice(0, 7);
+
 const withSerwist = withSerwistInit({
   cacheOnNavigation: true,
   reloadOnOnline: false,
+
   swSrc: "app/sw.ts",
   swDest: "public/sw.js",
-  disable: process.env.NODE_ENV === "development",
+
+  // ✅ correcto
+  disable: process.env.NODE_ENV !== "production",
+
   additionalPrecacheEntries: [
     { url: "/", revision },
     { url: "/offline", revision },
