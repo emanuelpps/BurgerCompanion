@@ -15,7 +15,7 @@ export default function ButtonVariants({
     primary:
       "bg-[#FF6500] shadow-md shadow-[#FF6500]/50 hover:bg-[#ff7a26] text-white font-semibold text-xl rounded-3xl px-6 py-5 transition w-full",
     secondary:
-      "bg-transparent border-3 border-[#323638] hover:border-white/40 text-white font-semibold text-xl rounded-3xl px-6 py-5 transition w-full",
+      "bg-transparent border-3 border-border-white/40 hover:border-[#323638] text-white font-semibold text-xl rounded-3xl px-6 py-5 transition w-full",
     tertiary:
       "text-xl text-white font-bold underline underline-offset-4 hover:opacity-80 transition",
   };

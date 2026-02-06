@@ -12,7 +12,7 @@ export default function Card({
   return (
     <div className="w-full max-w-[50%]">
       <div
-        className={`bg-[#323638] rounded-2xl border border-white/10 shadow-lg backdrop-blur-sm transition hover:border-white/20 hover:shadow-xl p-6 ${className}
+        className={`bg-[#323638] rounded-2xl border border-white/10 shadow-lg backdrop-blur-sm transition hover:border-white/20 hover:shadow-xl ${className}
         `}
         {...props}
       >
