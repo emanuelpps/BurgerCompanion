@@ -12,9 +12,9 @@ export default function Home() {
         <Card>
           General Roca 28 C <br /> Primavera
         </Card>
-        <section className="flex flex-col items-center justify-center w-full gap-4 max-w-[50%]">
-          <ButtonFactory variant="primary">Follow a Recipe</ButtonFactory>
-          <ButtonFactory variant="secondary">Follow a Recipe</ButtonFactory>
+        <section className="flex flex-col items-center justify-center w-full gap-5 max-w-[50%]">
+          <ButtonFactory variant="primary">Seguir una Receta</ButtonFactory>
+          <ButtonFactory variant="secondary">Crear Mi Hamburguesa</ButtonFactory>
         </section>
       </main>
     </>

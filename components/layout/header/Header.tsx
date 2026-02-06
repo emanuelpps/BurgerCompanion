@@ -3,7 +3,7 @@ import HeaderTitle from "./HeaderTitle";
 
 export default function Header() {
   return (
-    <header className="w-full flex flex-col justify-center items-center h-full">
+    <header className="flex flex-col items-center w-full">
       <HeaderLogo />
       <HeaderTitle />
     </header>
